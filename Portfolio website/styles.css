@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d2d0d0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2e2e2e;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #00aaff;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: #00aaff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #00aaff;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #5c585f;
+}
+
+section {
+    padding: 35px 0;
+}
+
+.box {
+    background-color: #5e5e5e;
+    color: #00aaff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    text-align: center;
+   
+}
+
+.image-container {
+    width: 205px;
+    height: 350px;
+    margin: 0 auto;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+footer {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #00aaff;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #cecece;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin: 10px 0;
+}
+
+.project p {
+    color: #ffffff;
+}
+
+.project a {
+    display: inline-block;
+    background-color: #424242;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+    background-color: #421b52;
+}
+
