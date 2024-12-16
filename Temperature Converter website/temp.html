@@ -1,30 +1,77 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Temperature Converter</title>
-    <link rel="stylesheet" type="text/css" href="temp.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background: #007bff;
+            color: white;
+            padding: 2em 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .main-content {
+            text-align: center;
+            padding: 4em 2em;
+        }
+        .main-content h2 {
+            color: #333;
+        }
+        .main-content p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 1em;
+            padding: 0.8em 2em;
+            background: #007bff;
+            color: white;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .cta-button:hover {
+            background: #0056b3;
+        }
+        .footer {
+            text-align: center;
+            padding: 1em 0;
+            background: #333;
+            color: white;
+            margin-top: 2em;
+        }
+    </style>
 </head>
-
 <body>
-    <div class="container">
-        <h1>Temperature Converter</h1>
-        <div class="converter">
-            <input type="number" id="inputTemperature" placeholder="Enter temperature">
-            <select id="unitFrom">
-                <option value="celsius">Celsius</option>
-                <option value="fahrenheit">Fahrenheit</option>
-            </select>
-            <select id="unitTo">
-                <option value="celsius">Celsius</option>
-                <option value="fahrenheit">Fahrenheit</option>
-            </select>
-            <button onclick="convertTemperature()">Convert</button>
-        </div>
-        <div id="result" class="result"></div>
-    </div>
 
-    <script src="temp.js"></script>
+<div class="header">
+    <h1>Welcome to Our Website</h1>
+</div>
+
+<div class="main-content">
+    <h2>Your One-Stop Solution</h2>
+    <p>Discover our services and products designed to make your life easier and more enjoyable.</p>
+    <a href="#" class="cta-button">Get Started</a>
+</div>
+
+<div class="footer">
+    <p>&copy; 2024 Your Company. All rights reserved.</p>
+</div>
+
 </body>
-
 </html>
